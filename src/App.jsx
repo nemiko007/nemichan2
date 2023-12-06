@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function App() {
   return (
     <>
-      <nav class="navbar is-fixed-top is-primary">
+      <nav class="navbar is-fixed-top is-primary is-mobile">
         <div class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item" href="#works">Works</a>
