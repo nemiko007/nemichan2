@@ -10,10 +10,10 @@ export default function App() {
     <>
       <nav class="navbar is-fixed-top is-primary">
         <div class="navbar-menu">
-          <nav class="navbar-start">
+          <div class="navbar-start">
             <a class="navbar-item" href="#works">Works</a>
             <a class="navbar-item" href="#about">About</a>
-          </nav>
+          </div>
         </div>
       </nav>
 
@@ -25,7 +25,7 @@ export default function App() {
             </p>
             <br></br>
             <p class="subtitle">
-              ねみちゃんが気まぐれで更新するサイトです。ポートフォリオ的な感じで使って行きたい。。。
+              ねみちゃんが気まぐれで更新するサイトです。ポートフォリオ的な感じで使っていきたい。。。
             </p>
           </div>
         </div>
