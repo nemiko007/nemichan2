@@ -21,6 +21,7 @@ export default function About() {
                 <p>
                     趣味：音楽とサブカルチャー
                 </p>
+                <br></br>
                 <a href="https://twitter.com/nemiko007"><i class="fa-brands fa-x-twitter fa-5x"></i></a>
             </div>
         </>
