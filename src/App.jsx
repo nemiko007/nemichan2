@@ -8,18 +8,16 @@ import { useState } from "react";
 export default function App() {
   return (
     <>
-      <section class="hero is-primary is-medium">
-        <div class="hero-head">
-          <nav class="tabs">
-            <div class="container">
-              <ul>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#about">About</a></li>
-              </ul>
-            </div>
+      <nav class="navbar is-fixed-top is-primary">
+        <div class="navbar-menu">
+          <nav class="navbar-start">
+            <a class="navbar-item" href="#works">Works</a>
+            <a class="navbar-item" href="#about">About</a>
           </nav>
         </div>
+      </nav>
 
+      <section class="hero is-primary is-medium">
         <div class="hero-body">
           <div class="container has-text-centered">
             <p class="title">

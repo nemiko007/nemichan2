@@ -11,7 +11,6 @@ export default function About() {
                 <h2 class="subtitle">
                     ねみちゃんについて紹介します。
                 </h2>
-                <br></br>
                 <p>
                     日本大学文理学部地理学科 ３年
                 </p>
