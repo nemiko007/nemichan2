@@ -10,15 +10,12 @@ export default function App() {
     <>
       <section class="hero is-primary is-medium">
         <div class="hero-head">
-          <nav class="navbar">
+          <nav class="tabs">
             <div class="container">
-              <div class="navbar-brand">
-                <span class="navbar-burger" data-target="navbarMenuHeroA">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
-              </div>
+              <ul>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#about">About</a></li>
+              </ul>
             </div>
           </nav>
         </div>
@@ -33,17 +30,6 @@ export default function App() {
               ねみちゃんが気まぐれで更新するサイトです。ポートフォリオ的な感じで使って行きたい。。。
             </p>
           </div>
-        </div>
-
-        <div class="hero-foot">
-          <nav class="tabs">
-            <div class="container">
-              <ul>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#about">About</a></li>
-              </ul>
-            </div>
-          </nav>
         </div>
       </section>
       <br></br>

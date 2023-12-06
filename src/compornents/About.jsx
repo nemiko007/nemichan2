@@ -13,7 +13,7 @@ export default function About() {
                 </h2>
                 <br></br>
                 <p>
-                    日本大学文理学部地理学科３年
+                    日本大学文理学部地理学科 ３年
                 </p>
                 <p>
                     専攻分野：リモートセンシング
@@ -21,7 +21,7 @@ export default function About() {
                 <p>
                     趣味：音楽とサブカルチャー
                 </p>
-
+                <a href="https://twitter.com/nemiko007"><i class="fa-brands fa-x-twitter fa-5x"></i></a>
             </div>
         </>
     )
