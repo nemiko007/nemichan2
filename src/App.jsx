@@ -9,10 +9,12 @@ export default function App() {
   return (
     <>
       <nav class="navbar is-fixed-top is-primary">
-        <div class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="#works">Works</a>
-            <a class="navbar-item" href="#about">About</a>
+        <div class="navbar-brand">
+          <div class="navbar-menu">
+            <div class="navbar-start is-active">
+              <a class="navbar-item" href="#works">Works</a>
+              <a class="navbar-item" href="#about">About</a>
+            </div>
           </div>
         </div>
       </nav>
