@@ -10,7 +10,12 @@ export default function App() {
     <>
       <nav class="navbar is-fixed-top is-primary">
         <div class="navbar-brand">
-          <div class="navbar-menu is-active">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+          <div class="navbar-menu">
             <div class="navbar-start">
               <a class="navbar-item" href="#works">Works</a>
               <a class="navbar-item" href="#about">About</a>
