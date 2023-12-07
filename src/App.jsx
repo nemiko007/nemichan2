@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function App() {
 
-  const[active, setActive] = useState([false]);
+  const[active, setActive] = useState(false);
 
   return (
     <>
