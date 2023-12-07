@@ -6,17 +6,20 @@ import About from "./compornents/About";
 import { useState } from "react";
 
 export default function App() {
+
+  const[active, setActive] = useState([false]);
+
   return (
     <>
-      <nav class="navbar is-fixed-top is-primary">
+      <nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+          <a onClick={() => setActive(!active)} role="button" class={`navbar-burger burger ${active ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" data-target="navbarBasic">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbarBasic" class="navbar-menu">
+        <div id="navbarBasic" className={`navbar-menu ${active ? 'is-active' : ''}`}>
           <div class="navbar-start">
             <a class="navbar-item" href="#works">Works</a>
             <a class="navbar-item" href="#about">About</a>
