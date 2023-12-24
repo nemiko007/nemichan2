@@ -40,12 +40,12 @@ export default function App() {
           </div>
         </div>
       </section>
+      <a name="about"></a>
+      <About />
       <br></br>
       <a name="works"></a>
       <Works />
       <br></br>
-      <a name="about"></a>
-      <About />
     </>
   )
 }
