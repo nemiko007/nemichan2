@@ -13,9 +13,6 @@ export default function About() {
                 </h2>
                 <img src="/nemiko.jpg" />
                 <p>
-                    氏名：大窪　悠斗（おおくぼ　ゆうと）
-                </p>
-                <p>
                     日本大学文理学部地理学科 ３年
                 </p>
                 <p>

@@ -11,7 +11,7 @@ export default function Works() {
                 <h2 class="subtitle">
                     ねみちゃんの作品を展示します。
                 </h2>
-                <iframe src="https://nemiko007.github.io/nemichan-html--2-/"></iframe>
+                <iframe src="https://iridescent-starship-bbe07b.netlify.app/"></iframe>
             </div>
         </>
     )
