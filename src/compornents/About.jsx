@@ -11,7 +11,7 @@ export default function About() {
                 <h2 class="subtitle">
                     ねみちゃんについて紹介します。
                 </h2>
-                <img src="/nemiko.jpg" />
+                <img src="/nemiko2.jpg" />
                 <p>
                     日本大学文理学部地理学科 ４年
                 </p>
@@ -34,6 +34,15 @@ export default function About() {
                 <p>
                     高等学校教諭第一種免許状（理科）　取得見込み
                 </p>
+                <p>
+                    測量士補　取得見込み
+                    <br></br>
+                    GIS学術士　取得見込み
+                    <br></br>
+                    地域調査士　取得見込み
+                    <br></br>
+                </p>
+                <br></br>
                 <a href="https://twitter.com/nemiko007"><i class="fa-brands fa-x-twitter fa-5x"></i></a>
             </div>
         </>
